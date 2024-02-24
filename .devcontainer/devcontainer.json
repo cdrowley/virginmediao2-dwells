@@ -1,0 +1,42 @@
+{
+	"name": "PostgreSQL with PostGIS, Python, and DuckDB",
+	"dockerComposeFile": "docker-compose.yml",
+	"service": "app",
+	"workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
+	"features": {
+		"ghcr.io/eitsupi/devcontainer-features/duckdb-cli:1": {
+			"version": "latest",
+			"extensions": "autocomplete,excel,fts,httpfs,json,parquet,postgres_scanner,spatial,sqlite_scanner"
+		}
+	},
+
+	"forwardPorts": [
+		5000,
+		5432,
+		8080
+	],
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"GitHub.copilot",
+				"GitHub.copilot-chat",
+				"benjaminbenais.copilot-theme",
+				"ms-azuretools.vscode-docker",
+				"ms-python.black-formatter",
+				"ms-python.python",
+				"ms-python.vscode-pylance",
+				"ms-toolsai.jupyter",
+				"ms-toolsai.jupyter-keymap",
+				"ms-toolsai.jupyter-renderers",
+				"ms-toolsai.vscode-jupyter-slideshow",
+				"ms-vscode.remote-explorer",
+				"ms-vscode.remote-server",
+				"oderwat.indent-rainbow",
+				"streetsidesoftware.code-spell-checker",
+				"vscode-icons-team.vscode-icons"
+			]
+		}
+	},
+
+	"postCreateCommand": "make venv"
+}

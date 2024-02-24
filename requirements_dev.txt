@@ -1,0 +1,9 @@
+duckdb
+pandas
+geopandas
+mapclassify
+branca
+folium
+ipykernel
+pyarrow
+plotly
