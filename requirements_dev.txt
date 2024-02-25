@@ -6,4 +6,7 @@ branca
 folium
 ipykernel
 pyarrow
+pyarrow.parquet
+matplotlib
 plotly
+nbformat
