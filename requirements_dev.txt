@@ -1,3 +1,5 @@
+isort
+black[jupyter]
 duckdb
 pandas
 geopandas
@@ -6,7 +8,8 @@ branca
 folium
 ipykernel
 pyarrow
-pyarrow.parquet
 matplotlib
 plotly
 nbformat
+geopy
+h3pandas
