@@ -1,16 +1,4 @@
-# Welcome to your Jupyter Book
+# Virgin Media 02 Dwell Analysis
 
-This is a small sample book to give you a feel for how book content is
-structured.
 
-:::{note}
-Here is a note!
-:::
-
-And here is a code block:
-
-```
-e = mc^2
-```
-
-Check out the content pages bundled with this sample book to see more.
+A book to present a brief data analysis of Virgin Media / o2 mobile data focusing on dwell times.
